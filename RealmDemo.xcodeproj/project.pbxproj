@@ -14,6 +14,7 @@
 		BFE4000B2B2AE43800762F58 /* RealmDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFE400092B2AE43800762F58 /* RealmDemo.xcdatamodeld */; };
 		BFE4000D2B2AE43A00762F58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFE4000C2B2AE43A00762F58 /* Assets.xcassets */; };
 		BFE400102B2AE43A00762F58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE4000E2B2AE43A00762F58 /* LaunchScreen.storyboard */; };
+		BFE400182B2AF7CD00762F58 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE400172B2AF7CD00762F58 /* Cat.swift */; };
 		FC4812A49ADE08F621DA4574 /* Pods_RealmDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3635D1D6E132F14F0E9BA54F /* Pods_RealmDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		BFE4000C2B2AE43A00762F58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFE4000F2B2AE43A00762F58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFE400112B2AE43A00762F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE400172B2AF7CD00762F58 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
 		BFE4FFFD2B2AE43800762F58 /* RealmDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				BFE4000E2B2AE43A00762F58 /* LaunchScreen.storyboard */,
 				BFE400112B2AE43A00762F58 /* Info.plist */,
 				BFE400092B2AE43800762F58 /* RealmDemo.xcdatamodeld */,
+				BFE400172B2AF7CD00762F58 /* Cat.swift */,
 			);
 			path = RealmDemo;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 				557439B59CAAA6957A062CA6 /* Pods-RealmDemo.debug.xcconfig */,
 				5478AB1136ADDCD69422F40C /* Pods-RealmDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,6 +214,7 @@
 			files = (
 				BFE4000B2B2AE43800762F58 /* RealmDemo.xcdatamodeld in Sources */,
 				BFE400052B2AE43800762F58 /* ViewController.swift in Sources */,
+				BFE400182B2AF7CD00762F58 /* Cat.swift in Sources */,
 				BFE400012B2AE43800762F58 /* AppDelegate.swift in Sources */,
 				BFE400032B2AE43800762F58 /* SceneDelegate.swift in Sources */,
 			);
@@ -276,7 +279,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -339,7 +342,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -367,6 +370,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76984GDP6C;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RealmDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -396,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 76984GDP6C;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RealmDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
